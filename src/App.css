@@ -3,3 +3,14 @@
   margin: 0px;
   padding: 0px;
 }
+
+.app-container {
+  width: 550px;
+  height: 704px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+}
