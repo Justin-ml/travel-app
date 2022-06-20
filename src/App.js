@@ -24,18 +24,6 @@ function App() {
             />
           );
         })}
-        {/* {data.map((content) => {
-          return (
-            <Description
-              location={content.location}
-              googleMapUrl={content.googleMapsUrl}
-              title={content.title}
-              startdate={content.startDate}
-              enddate={content.endDate}
-              info={content.description}
-            />
-          );
-        })} */}
       </div>
     </div>
   );
