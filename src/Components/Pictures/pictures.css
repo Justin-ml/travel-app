@@ -7,6 +7,6 @@
 .picture {
   width: 470px;
   height: 168px;
-  background-color: aqua;
   margin: 40px;
+  display: flex;
 }

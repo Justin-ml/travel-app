@@ -10,11 +10,21 @@ function App() {
     <div className="app-container">
       <NavBar />
 
-      <div className="card">
-        {data.map((pic) => {
-          return <Pictures img={pic.imageUrl} />;
-        })}
+      <div>
         {data.map((content) => {
+          return (
+            <Pictures
+              img={content.imageUrl}
+              location={content.location}
+              googleMapUrl={content.googleMapsUrl}
+              title={content.title}
+              startDate={content.startDate}
+              endDate={content.endDate}
+              info={content.description}
+            />
+          );
+        })}
+        {/* {data.map((content) => {
           return (
             <Description
               location={content.location}
@@ -25,7 +35,7 @@ function App() {
               info={content.description}
             />
           );
-        })}
+        })} */}
       </div>
     </div>
   );
